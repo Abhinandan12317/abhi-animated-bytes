@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { ChevronDown, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import heroBackground from '@/assets/hero-background.jpg';
 
 const HeroSection = () => {
   const [typedText, setTypedText] = useState('');
@@ -49,13 +48,7 @@ const HeroSection = () => {
   return (
     <section 
       id="hero" 
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-      style={{
-        background: `linear-gradient(135deg, rgba(15, 15, 23, 0.9) 0%, rgba(25, 25, 45, 0.8) 50%, rgba(35, 35, 65, 0.9) 100%), url(${heroBackground})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed'
-      }}
+      className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-hero"
     >
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">

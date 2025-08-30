@@ -39,15 +39,15 @@ const Footer = () => {
     <footer className="relative bg-card border-t border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Brand Section */}
+          {/* About Section */}
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
-              Abhinandan
-            </h3>
-            <p className="text-muted-foreground max-w-sm">
+            <div className="w-16 h-3 gradient-primary rounded-lg"></div>
+            <p className="text-muted-foreground leading-relaxed">
               Passionate Computer Science student building innovative AI solutions and modern web applications. 
               Always excited to tackle new challenges and create meaningful impact through technology.
             </p>
+            
+            {/* Social Links */}
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
                 <a
@@ -84,17 +84,16 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="space-y-4">
             <h4 className="text-lg font-semibold text-foreground">Get In Touch</h4>
-            <div className="space-y-2 text-muted-foreground">
-              <p>Ready to collaborate on innovative projects</p>
-              <p>
-                <a 
-                  href="mailto:contact@abhinandan.dev" 
-                  className="hover:text-primary transition-smooth"
-                >
-                  contact@abhinandan.dev
-                </a>
+            <div className="space-y-3">
+              <p className="text-muted-foreground">
+                Ready to collaborate on innovative projects
               </p>
-              <p>Available for internships and freelance work</p>
+              <p className="text-primary font-medium">
+                contact@abhinandan.dev
+              </p>
+              <p className="text-sm text-muted-foreground">
+                Available for internships and freelance work
+              </p>
             </div>
           </div>
         </div>

@@ -157,7 +157,7 @@ const PortfolioSection = () => {
             <div
               key={project.id}
               className={`group glass-card rounded-2xl overflow-hidden hover:scale-105 transition-bounce hover:shadow-card ${
-                project.featured ? 'md:col-span-2 lg:col-span-1 lg:row-span-2' : ''
+                project.featured ? 'lg:col-span-2' : ''
               } ${isVisible ? 'animate-fadeInUp' : 'opacity-0 translate-y-8'}`}
               style={{ animationDelay: `${0.6 + index * 0.1}s` }}
             >
@@ -167,7 +167,7 @@ const PortfolioSection = () => {
                   src={project.image}
                   alt={project.title}
                   className={`w-full object-cover group-hover:scale-110 transition-smooth ${
-                    project.featured ? 'h-64 md:h-80' : 'h-48 md:h-56'
+                    project.featured ? 'h-64' : 'h-48'
                   }`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-smooth" />
