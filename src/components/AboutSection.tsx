@@ -6,9 +6,9 @@ const AboutSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
 
   const skills = [
-    { name: 'AI/ML', percentage: 85, icon: Brain, color: 'text-purple-400' },
+    { name: 'AI/ML', percentage: 45, icon: Brain, color: 'text-purple-400' },
     { name: 'Web Development', percentage: 90, icon: Code, color: 'text-blue-400' },
-    { name: 'Cloud Technologies', percentage: 75, icon: Cloud, color: 'text-green-400' },
+    { name: 'Cloud Technologies', percentage: 50, icon: Cloud, color: 'text-green-400' },
     { name: 'Problem Solving', percentage: 95, icon: Award, color: 'text-yellow-400' }
   ];
 
