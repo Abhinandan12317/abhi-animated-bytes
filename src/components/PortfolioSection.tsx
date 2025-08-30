@@ -18,8 +18,8 @@ const PortfolioSection = () => {
       category: 'AI/ML',
       featured: true,
       links: {
-        github: 'https://github.com',
-        demo: 'https://demo.com'
+        github: 'https://github.com/Abhinandan12317',
+        demo: 'https://github.com/Abhinandan12317'
       }
     },
     {
@@ -31,8 +31,8 @@ const PortfolioSection = () => {
       category: 'AI/ML',
       featured: true,
       links: {
-        github: 'https://github.com',
-        demo: 'https://demo.com'
+        github: 'https://github.com/Abhinandan12317',
+        demo: 'https://github.com/Abhinandan12317'
       }
     },
     {
@@ -44,8 +44,8 @@ const PortfolioSection = () => {
       category: 'Web Development',
       featured: false,
       links: {
-        github: 'https://github.com',
-        demo: 'https://demo.com'
+        github: 'https://github.com/Abhinandan12317',
+        demo: 'https://github.com/Abhinandan12317'
       }
     },
     {
@@ -57,8 +57,8 @@ const PortfolioSection = () => {
       category: 'Cloud Solutions',
       featured: false,
       links: {
-        github: 'https://github.com',
-        demo: 'https://demo.com'
+        github: 'https://github.com/Abhinandan12317',
+        demo: 'https://github.com/Abhinandan12317'
       }
     },
     {
@@ -70,8 +70,8 @@ const PortfolioSection = () => {
       category: 'AI/ML',
       featured: false,
       links: {
-        github: 'https://github.com',
-        demo: 'https://demo.com'
+        github: 'https://github.com/Abhinandan12317',
+        demo: 'https://github.com/Abhinandan12317'
       }
     },
     {
@@ -83,8 +83,8 @@ const PortfolioSection = () => {
       category: 'Web Development',
       featured: false,
       links: {
-        github: 'https://github.com',
-        demo: 'https://demo.com'
+        github: 'https://github.com/Abhinandan12317',
+        demo: 'https://github.com/Abhinandan12317'
       }
     }
   ];
