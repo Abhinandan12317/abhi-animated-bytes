@@ -67,8 +67,8 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'contact@abhinandan.dev',
-      href: 'mailto:contact@abhinandan.dev'
+      value: 'abhinandan4dev@gmail.com',
+      href: 'mailto:abhinandan4dev@gmail.com'
     },
     {
       icon: MapPin,
@@ -79,8 +79,8 @@ const ContactSection = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 XXXXX XXXXX',
-      href: 'tel:+91XXXXXXXXX'
+      value: '+91 9482053968',
+      href: 'tel:+919482053968'
     }
   ];
 
@@ -88,20 +88,14 @@ const ContactSection = () => {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/Abhinandan12317',
       color: 'hover:text-gray-400'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
-      href: 'https://linkedin.com',
+      href: 'https://www.linkedin.com/in/abhinandan-rk-899100290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       color: 'hover:text-blue-400'
-    },
-    {
-      icon: Twitter,
-      label: 'Twitter',
-      href: 'https://twitter.com',
-      color: 'hover:text-sky-400'
     }
   ];
 
@@ -284,14 +278,15 @@ const ContactSection = () => {
               <Button
                 variant="outline"
                 className="glass-card border-primary/30 hover:border-primary/50 hover:scale-105 transition-bounce"
+                asChild
               >
-                Download Resume
+                <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
               </Button>
               <Button
                 className="gradient-primary hover:scale-105 transition-bounce shadow-primary"
-                onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}
+                asChild
               >
-                View Portfolio
+                <a href="#portfolio">View Portfolio</a>
               </Button>
             </div>
           </div>

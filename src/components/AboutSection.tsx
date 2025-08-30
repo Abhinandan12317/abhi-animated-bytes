@@ -106,26 +106,9 @@ const AboutSection = () => {
           </div>
         </div>
 
-        {/* Achievement Stats */}
-        <div className={`mt-16 grid grid-cols-2 md:grid-cols-4 gap-6 ${
-          isVisible ? 'animate-fadeInUp' : 'opacity-0 translate-y-8'
-        }`} style={{ animationDelay: '1s' }}>
-          {[
-            { number: '20+', label: 'Projects Built' },
-            { number: '5+', label: 'Hackathons' },
-            { number: '15+', label: 'Technologies' },
-            { number: '100+', label: 'GitHub Commits' }
-          ].map((stat, index) => (
-            <div key={stat.label} className="glass-card p-6 rounded-xl text-center hover:scale-105 transition-bounce">
-              <div className="text-2xl md:text-3xl font-bold gradient-primary bg-clip-text text-transparent mb-2">
-                {stat.number}
-              </div>
-              <div className="text-sm text-muted-foreground">{stat.label}</div>
-            </div>
-          ))}
+        
         </div>
-      </div>
-    </section>
+      </section>
   );
 };
 

@@ -40,8 +40,9 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid md:grid-cols-3 gap-8">
           {/* About Section */}
+          
           <div className="space-y-4">
-            <div className="w-16 h-3 gradient-primary rounded-lg"></div>
+            <div >Abhinandan</div>
             <p className="text-muted-foreground leading-relaxed">
               Passionate Computer Science student building innovative AI solutions and modern web applications. 
               Always excited to tackle new challenges and create meaningful impact through technology.
@@ -88,9 +89,13 @@ const Footer = () => {
               <p className="text-muted-foreground">
                 Ready to collaborate on innovative projects
               </p>
-              <p className="text-primary font-medium">
-                contact@abhinandan.dev
-              </p>
+              <p><a
+  href="mailto:abhinandan4dev@gmail.com"
+  className="text-primary hover:underline transition-smooth"
+>
+  abhinandan4dev@gmail.com
+</a></p>
+
               <p className="text-sm text-muted-foreground">
                 Available for internships and freelance work
               </p>
