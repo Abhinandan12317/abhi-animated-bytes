@@ -59,7 +59,7 @@ const ServicesSection = () => {
       
       <div ref={sectionRef} className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-bold gradient-primary bg-clip-text text-transparent mb-6 ${
+          <h2 className={`text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-6 ${
             isVisible ? 'animate-fadeInUp' : 'opacity-0 translate-y-8'
           }`}>
             What I Do

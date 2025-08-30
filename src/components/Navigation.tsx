@@ -55,7 +55,7 @@ const Navigation = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection('hero')}
-              className="text-xl font-bold gradient-primary bg-clip-text text-transparent hover:scale-105 transition-smooth"
+              className="text-xl font-bold text-primary hover:scale-105 transition-smooth"
             >
               Abhinandan
             </button>

@@ -69,7 +69,7 @@ const HeroSection = () => {
         <div className="space-y-6 animate-fadeInUp">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold">
             <span className="block text-foreground mb-2">Hi, I'm</span>
-            <span className="block gradient-primary bg-clip-text text-transparent text-glow">
+            <span className="block text-primary text-glow font-extrabold">
               Abhinandan
             </span>
           </h1>
